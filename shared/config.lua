@@ -1,6 +1,6 @@
 Config = {}
 Config.CoreName = "qb-core"
-Config.FuelResource = "cdn-fuel" --LegacyFuel or any other supported
+Config.FuelResource = "LegacyFuel" --LegacyFuel or any other supported
 Config.NewListingTime = 30 --In Minutes
 Config.DownPayment = 200
 Config.OxyItemName = 'oxy_pill'
@@ -82,6 +82,46 @@ Config.JobLocations ={
         Respray = {
             Coords = vector3(130.14, -1938.78, 20.62),
         }
+    },
+    {
+        Name = 'El Rancho Job',
+        Van = {
+            Coords = vector4(1161.88, -1368.78, 34.75, 359.86),
+            Model = 'speedo'
+        },
+        Shooters = {
+            {
+                Coords = vector4(1167.43, -1366.88, 34.93, 6.13),
+                Model = 'a_m_m_afriamer_01',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Keys = true,
+            },
+            {
+                Coords = vector4(1169.06, -1372.49, 34.92, 343.62),
+                Model = 'a_m_m_beach_01',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Keys = false,
+            },
+            {
+                Coords = vector4(1159.57, -1364.4, 34.72, 351.35),
+                Model = 'a_m_m_rurmeth_01',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Keys = false,
+            },
+            {
+                Coords = vector4(1155.69, -1360.36, 34.7, 276.17),
+                Model = 'a_m_m_salton_03',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Keys = false,
+            }
+        },
+        Respray = {
+            Coords = vector3(-1991.87, 548.02, 109.88),
+        }
     }
 }
 Config.Clients = {
@@ -113,6 +153,41 @@ Config.Clients = {
             },
             {
                 Coords = vector4(1405.85, -1498.4, 59.78, 230.46),
+                Model = 'a_m_m_salton_03',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Main = false,
+            }
+        }
+    },
+    {
+        TradePoint = {
+            Coords = vector3(535.27, 3071.86, 40.11)
+        },
+        Peds = {
+            {
+                Coords = vector4(535.71, 3075.13, 40.15, 229.67),
+                Model = 'a_m_m_afriamer_01',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Main = true,
+            },
+            {
+                Coords = vector4(539.51, 3074.12, 40.11, 179.17),
+                Model = 'a_m_m_beach_01',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Main = false,
+            },
+            {
+                Coords = vector4(528.96, 3076.45, 40.41, 146.81),
+                Model = 'a_m_m_rurmeth_01',
+                Weapon = 'WEAPON_COMBATPISTOL',
+                Health = 2000,
+                Main = false,
+            },
+            {
+                Coords = vector4(535.74, 3087.71, 40.47, 234.69),
                 Model = 'a_m_m_salton_03',
                 Weapon = 'WEAPON_COMBATPISTOL',
                 Health = 2000,

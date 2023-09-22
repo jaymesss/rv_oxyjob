@@ -1,0 +1,2 @@
+['oxy_pill'] = {['name'] = 'oxy_pill', ['label'] = 'Oxycontin Pill', ['weight'] = 10, ['type'] = 'item', ['image'] = 'oxy_pill.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Some not edible pills!'},
+['oxy_bottle'] = {['name'] = 'oxy_bottle', ['label'] = 'Oxycontin Bottle', ['weight'] = 100, ['type'] = 'item', ['image'] = 'oxy_bottle.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'A bottle of goodness!'},

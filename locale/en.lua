@@ -1,0 +1,40 @@
+Locale = {}
+Locale.Error = {
+    no_jobs = 'No jobs currently available. Try again later!',
+    not_enough_cash = 'You need $amount cash as a downpayment.',
+    not_enough_plastic = 'You need amount total plastic to craft the bottles.',
+    not_enough_oxys = 'You need at least amount oxys to craft bottles.',
+    oxys_not_in_inventory = 'You no longer have the right amount of oxys on you.',
+    plastic_not_in_inventory = 'You no longer have the right amount of plastic on you.',
+    no_oxys = 'You have no oxys on you.',
+    no_plastic = 'You have no plastic on you.',
+    no_clients = 'I have no clients right now, come back later.',
+    dont_have_bottles = "You don't have that many pill bottles!",
+    killed_clients = 'Job failed. You killed your clients.',
+    stick_up = 'It was a stick up! Kill them for your drugs back.',
+    skimp = 'You tried to skimp them for drugs! Fight back.'
+}
+Locale.Success = {
+    picked_up_keys = 'You picked up the keys! Change the paint to hide your tracks.',
+    started_job = 'You started the job! Check your minimap and go steal the van.',
+    take_out_drugs = 'Take the drugs out of the trunk with your third eye.',
+    oxys_received = 'You received the amount oxys. Head inside to make bottles.',
+    oxy_bottles_received = 'You received amount oxy bottles. Find the man with the clientele list.',
+    started_client = 'I found you a client! Check your minimap and go meet them there with the oxys.',
+    stole_oxys_back = 'You stole your oxys back, good job!'
+}
+Locale.Info = {
+    job_listing = 'Job Listings',
+    click_accept = 'Click to accept this job',
+    respray_text = 'Respray Vehicle',
+    respray_progress_bar = 'Respraying...',
+    head_to_scales = 'Success! Head over to the scales and unload the van.',
+    trunk_target = 'Take out oxys',
+    emptying_trunk = 'Emptying Trunk...',
+    crafting_bottles = 'Crafting amount Bottles...',
+    dialog_title = 'How many bottles are for sale?',
+    dialog_amount = 'Bottle Count',
+    dont_shoot_clients = "Don't shoot your clients, they'll fight back!",
+    trade_text = 'Trade Oxys',
+    trade_progress_bar = 'Trading...'
+}
